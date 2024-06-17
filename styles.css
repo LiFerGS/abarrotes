@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: 'Georgia', serif;
+    background-color: #ffe0d2; /* Color de fondo general */
+    color: #333; /* Color de texto principal */
+}
+
+h1 {
+    text-align: center;
+    color: #844d11; /* Marrón Canela para el título h1 */
+    font-family: 'Georgia', serif;
+}
+
+h2 {
+    text-align: center;
+    color: #4a332b; /* Verde Oliva para el título h2 */
+    font-family: 'Georgia', serif;
+}
+
+#main, #orderForm, #orderSummary, #consultarForm {
+    width: 50%;
+    margin: 0 auto;
+    background: #ff9800; /* Naranja Zanahoria */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="number"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #9e9e9e; /* Gris Piedra para los campos de entrada */
+}
+
+button {
+    background-color: #ffca7b; /* Naranja Zanahoria */
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Georgia', serif;
+}
+
+button:hover {
+    background-color: #c98949; /* Naranja más oscuro al pasar el ratón */
+}
+
+.product {
+    margin-bottom: 20px;
+}

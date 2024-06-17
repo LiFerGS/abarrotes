@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Consultar Pedido</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Consultar Pedido</h1>
+    <div id="consultarForm">
+        <label for="orderId">Número de Pedido:</label>
+        <input type="text" id="orderId" name="orderId" required>
+        <button id="consultarPedido" style="padding: 10px 20px; margin-top: 20px;" onclick="showOrderDetails(orderId)">Consultar</button>
+    </div>
+    <div id="consultaResultado" style="display: none;">
+        <h2>Detalles del Pedido</h2>
+        <div id="consultaContent"></div>
+    </div>
+
+    <script src="consultar.js"></script>
+</body>
+</html>

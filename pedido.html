@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Realizar Pedido</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 style="color: #bf3000;">Formulario de Pedido</h1>
+    <div id="orderForm">
+        <div class="filaCampo">
+            <h2>Datos del Cliente</h2>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Teléfono:</label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+
+        <div class="filaCampo">
+            <h2>Pedido</h2>
+            <div id="products"></div>
+            <button id="addProduct" style="padding: 10px 20px; margin-top: 20px;">Agregar Producto</button>
+            <button id="submitOrder" style="padding: 10px 20px; margin-top: 20px;">Realizar Pedido</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
